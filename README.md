@@ -69,6 +69,6 @@ These are planned improvements to make the application more robust and user-frie
   "balance": 1500.0
 }
 
----
+
 
 
