@@ -82,4 +82,6 @@ banking-application/
 - Add user authentication and role-based access (Admin, Customer)
 - Integrate email/SMS notifications for transactions
 - Add support for fund transfers between accounts
-- Add a front-end interface using React or Angular
+- Add a front-end interface using React
+
+---
