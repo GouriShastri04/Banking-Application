@@ -60,11 +60,12 @@ A Spring Boot banking application with account management, deposit/withdraw func
 
 ---
 
-## **Future Enhancements**
+# Banking Application - Future Enhancements
+
+These are planned improvements to make the application more robust and user-friendly:
 
 - Add user authentication and role-based access (Admin, Customer)
 - Integrate email/SMS notifications for transactions
 - Add support for fund transfers between accounts
 - Add a front-end interface using React
 
----
