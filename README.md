@@ -25,6 +25,23 @@ A Spring Boot banking application with account management, deposit/withdraw func
 
 ---
 
+## **Directory Structure**
+banking-application/
+│
+├─ src/main/java/com/project/banking/application/
+│ ├─ controller/ # REST Controllers (AccountController, TransactionController)
+│ ├─ dto/ # Data Transfer Objects
+│ ├─ entity/ # JPA Entities (Account, Transaction)
+│ ├─ mapper/ # Mapper classes for DTO <-> Entity
+│ ├─ repository/ # Spring Data JPA Repositories
+│ └─ service/ # Service interfaces and implementations
+├─ src/main/resources/
+│ └─ application.properties
+├─ pom.xml
+└─ README.md
+
+---
+
 ## **API Endpoints**
 
 ### **Account APIs**
@@ -57,3 +74,12 @@ A Spring Boot banking application with account management, deposit/withdraw func
   "accountHolderName": "John Doe",
   "balance": 1500.0
 }
+
+---
+
+## **Future Enhancements**
+
+- Add user authentication and role-based access (Admin, Customer)
+- Integrate email/SMS notifications for transactions
+- Add support for fund transfers between accounts
+- Add a front-end interface using React or Angular
